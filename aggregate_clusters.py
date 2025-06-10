@@ -30,4 +30,4 @@ final_model = create_model(input_dim=input_dim)
 final_model.set_weights(avg_weights)
 final_model.save_weights("global_model_clustered.weights.h5")
 
-print("✅ Aggregated global model saved as global_model_clustered.weights.h5")
+print("Aggregated global model saved as global_model_clustered.weights.h5")
